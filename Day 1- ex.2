@@ -1,0 +1,19 @@
+r= '123'
+print(r.split())
+
+----------------------------------------
+The above code will split the string r into a list using the default whitespace separator, but since there are no whitespace characters in the string '123', it will not split the string, and you will get a list with the original string as its only element. Here's the output you would get: ['123']
+
+
+The split() method without any arguments splits a string by whitespace characters (spaces, tabs, newlines, etc.). Since '123' contains no whitespace characters, it remains as a single element in the list. If you want to split '123' into individual digits, you can use an empty string as the argument to the split() method like this:
+r = '123'
+print(r.split(''))
+
+However, this will raise an error because an empty string cannot be used as a separator. If you want to split '123' into individual characters as strings, you can do it like this:
+
+r = '123'
+split_list = list(r)
+print(split_list)
+
+This will output:
+['1', '2', '3']
