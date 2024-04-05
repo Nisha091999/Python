@@ -15,3 +15,6 @@ print(st2 -st1)
 // In this case, the result of st2 - st1 would be a set containing only the element 4, because 2 and 3 are present in both st1 and st2, but 4 is present only in st2.
 
 // So, the output of print(st2 - st1) would be {4}.
+
+Output----------------
+{4}
