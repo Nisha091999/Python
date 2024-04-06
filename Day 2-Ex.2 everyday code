@@ -1,0 +1,12 @@
+write a python program to find the largest element in a list?
+
+input_var = list(map(int, input().split()))
+print(input_var)
+input_var.sort()
+print(input_var[0])
+
+************************************************************************8
+Output:
+27 8 90 0 76 35 24 15
+[27, 8, 90, 0, 76, 35, 24, 15]
+0
