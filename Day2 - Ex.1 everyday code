@@ -1,0 +1,7 @@
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+value = my_dict.pop('d', 0)
+print(value)
+
+**************************************************
+
+'d' is not a key in my_dict, the default value 0 is returned instead of raising a KeyError.
