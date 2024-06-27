@@ -48,7 +48,7 @@ def LargeSmallSum(arr):
     
     return second_smallest_odd + second_largest_even
 
-# Get input from the user
+
 input_str = input("Enter the elements of the array separated by spaces: ").split()
 
 
@@ -60,8 +60,3 @@ for elem in input_str:
 # Calculate and print the result
 result = LargeSmallSum(arr)
 print(f"The result is: {result}")
-
-
-
-
-
